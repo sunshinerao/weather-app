@@ -44,7 +44,7 @@ def main():
     # 替换为你的OpenWeatherMap API密钥
     API_KEY = "d6bcdff9f1d709396bc19576d20c1956"
     
-    city = input("请输入城市名称: ")
+    city = input("请输入城市名称(英文): ")
     weather = get_weather(city, API_KEY)
     
     if 'error' in weather:
